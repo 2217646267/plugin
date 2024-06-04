@@ -1,5 +1,5 @@
-#ifndef PERSON_H
-#define PERSON_H
+#ifndef IPERSON_H
+#define IPERSON_H
 
 #include <QtPlugin>
 #include <QString>
@@ -18,5 +18,5 @@ public:
 
 Q_DECLARE_INTERFACE(IPerson, IPerson_iid)
 
-#endif // PERSON_H
+#endif // IPERSON_H
 

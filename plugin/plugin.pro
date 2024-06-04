@@ -6,10 +6,12 @@ CONFIG += plugin
 TARGET = personPlugin
 
 HEADERS += \
-    person.h \
-    programmer.h
+    programmer.h\
+    IPerson.h
 
-SOURCES +=  person.cpp
+
+SOURCES += \
+    Programmer.cpp
 
 OTHER_FILES += programmer.json
 

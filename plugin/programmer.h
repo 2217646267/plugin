@@ -1,7 +1,7 @@
 #ifndef PROGRAMMER_H
 #define PROGRAMMER_H
 
-#include "person.h"
+#include "IPerson.h"
 #include <QObject>
 
 class Programmer : public QObject, IPerson

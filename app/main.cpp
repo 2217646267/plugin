@@ -4,7 +4,7 @@
 #include <QtDebug>
 #include <QJsonObject>
 #include <QJsonArray>
-#include <plugin/person.h>
+#include "plugin/IPerson.h"
 
 void loadPlugin()
 {
@@ -50,7 +50,7 @@ void loadPlugin()
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
- qDebug() << "********** main **********";
+    qDebug() << "********** main **********";
     loadPlugin();
 
     return a.exec();
